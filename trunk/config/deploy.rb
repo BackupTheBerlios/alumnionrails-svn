@@ -11,7 +11,7 @@
 # form the root of the application path.
 
 set :application, "alumnionrails"
-set :repository, "svn://svn.berlios.de/alumnionrails/trunk"
+set :repository, "http://svn.berlios.de/svnroot/repos/alumnionrails/trunk/"
 
 # =============================================================================
 # ROLES
