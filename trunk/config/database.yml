@@ -13,7 +13,7 @@
 development:
   adapter: mysql
   database: alumnionrails_development
-  username: root
+  username: alumnionrails
   password:
   host: localhost
 
@@ -23,7 +23,7 @@ development:
 test:
   adapter: mysql
   database: alumnionrails_test
-  username: root
+  username: alumnionrails
   password:
   host: localhost
 
