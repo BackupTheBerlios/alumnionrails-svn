@@ -1,0 +1,16 @@
+<%= error_messages_for 'training' %>
+
+<!--[form:training]-->
+<p><label for="training_start_date">Start date</label><br/>
+<%= date_select 'training', 'start_date'  %></p>
+
+<p><label for="training_end_date">End date</label><br/>
+<%= date_select 'training', 'end_date'  %></p>
+
+<p><label for="training_institution">Institution</label><br/>
+<%= text_field 'training', 'institution'  %></p>
+
+<p><label for="training_title">Title</label><br/>
+<%= text_field 'training', 'title'  %></p>
+<!--[eoform:training]-->
+
