@@ -51,3 +51,10 @@ end
 # end
 
 # Include your application configuration below
+
+# Use UTF-8
+$KCODE = 'u'
+require 'jcode'
+
+# gettext support
+require 'gettext/rails'

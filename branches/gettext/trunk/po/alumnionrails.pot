@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AlumniOnRails 0.0.0\n"
+"POT-Creation-Date: 2007-01-20 15:14+0100\n"
+"PO-Revision-Date: 2007-01-20 15:09+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/models/course.rb:-
+msgid "course"
+msgstr ""
+
+#: app/models/course.rb:-
+msgid "Course|Faculties"
+msgstr ""
+
+#: app/models/course.rb:-
+msgid "Course|Name"
+msgstr ""
+
+#: app/models/link.rb:-
+msgid "link"
+msgstr ""
+
+#: app/models/link.rb:-
+msgid "Link|Link categories"
+msgstr ""
+
+#: app/models/link.rb:-
+msgid "Link|Users"
+msgstr ""
+
+#: app/models/link.rb:-
+msgid "Link|Url"
+msgstr ""
+
+#: app/models/link.rb:-
+msgid "Link|Description"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "user"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Addresses"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Courses"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Created at"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Updated at"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Login"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Passwd"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Surname"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Forename"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Course year"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Course no"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Dob"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Birthname"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Email"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Photo"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Icq"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Msn"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Aim"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Skype"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Jabber"
+msgstr ""
+
+#: app/models/user.rb:-
+msgid "User|Yahoo"
+msgstr ""
+
+#: app/models/user_skill.rb:-
+msgid "user skill"
+msgstr ""
+
+#: app/models/user_skill.rb:-
+msgid "UserSkill|Skills"
+msgstr ""
+
+#: app/models/user_skill.rb:-
+msgid "UserSkill|Users"
+msgstr ""
+
+#: app/models/user_skill.rb:-
+msgid "UserSkill|Level"
+msgstr ""
+
+#: app/models/country.rb:-
+msgid "country"
+msgstr ""
+
+#: app/models/country.rb:-
+msgid "Country|Name"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "address"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|Countries"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|Zip"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|City"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|Street"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|Phone no"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|Cellphone no"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|Facsimile no"
+msgstr ""
+
+#: app/models/address.rb:-
+msgid "Address|User"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "company"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Addresses"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Users"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Emp from"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Emp until"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Emp status"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Name"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Email"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Job"
+msgstr ""
+
+#: app/models/company.rb:-
+msgid "Company|Website"
+msgstr ""
+
+#: app/models/faculty.rb:-
+msgid "faculty"
+msgstr ""
+
+#: app/models/faculty.rb:-
+msgid "Faculty|Title"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "paper"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "Paper|Users"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "Paper|Created at"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "Paper|Updated at"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "Paper|Pdf name"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "Paper|Pdf file"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "Paper|Title"
+msgstr ""
+
+#: app/models/paper.rb:-
+msgid "Paper|Description"
+msgstr ""
+
+#: app/models/degree.rb:-
+msgid "degree"
+msgstr ""
+
+#: app/models/degree.rb:-
+msgid "Degree|Degree categories"
+msgstr ""
+
+#: app/models/degree.rb:-
+msgid "Degree|Title"
+msgstr ""
+
+#: app/models/tag.rb:-
+msgid "tag"
+msgstr ""
+
+#: app/models/tag.rb:-
+msgid "Tag|Name"
+msgstr ""
+
+#: app/models/training.rb:-
+msgid "training"
+msgstr ""
+
+#: app/models/training.rb:-
+msgid "Training|Degrees"
+msgstr ""
+
+#: app/models/training.rb:-
+msgid "Training|Users"
+msgstr ""
+
+#: app/models/training.rb:-
+msgid "Training|Start date"
+msgstr ""
+
+#: app/models/training.rb:-
+msgid "Training|End date"
+msgstr ""
+
+#: app/models/training.rb:-
+msgid "Training|Institution"
+msgstr ""
+
+#: app/models/training.rb:-
+msgid "Training|Title"
+msgstr ""
