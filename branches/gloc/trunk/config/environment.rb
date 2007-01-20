@@ -51,3 +51,9 @@ end
 # end
 
 # Include your application configuration below
+
+# GLoc configuration
+GLoc.set_config :default_language => :de
+GLoc.clear_strings_except :en, :de
+GLoc.set_kcode
+GLoc.load_localized_strings
