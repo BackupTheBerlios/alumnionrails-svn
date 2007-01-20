@@ -1,0 +1,22 @@
+<%= error_messages_for 'paper' %>
+
+<!--[form:paper]-->
+<p><label for="paper_created_at">Created at</label><br/>
+<%= datetime_select 'paper', 'created_at'  %></p>
+
+<p><label for="paper_updated_at">Updated at</label><br/>
+<%= datetime_select 'paper', 'updated_at'  %></p>
+
+<p><label for="paper_pdf_name">Pdf name</label><br/>
+<%= text_field 'paper', 'pdf_name'  %></p>
+
+<p><label for="paper_pdf_file">Pdf file</label><br/>
+<%= text_field 'paper', 'pdf_file'  %></p>
+
+<p><label for="paper_title">Title</label><br/>
+<%= text_field 'paper', 'title'  %></p>
+
+<p><label for="paper_description">Description</label><br/>
+<%= text_area 'paper', 'description'  %></p>
+<!--[eoform:paper]-->
+

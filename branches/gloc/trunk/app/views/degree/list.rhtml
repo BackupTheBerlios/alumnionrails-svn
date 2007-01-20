@@ -1,0 +1,27 @@
+<h1>Listing degrees</h1>
+
+<table>
+  <tr>
+  <% for column in Degree.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for degree in @degrees %>
+  <tr>
+  <% for column in Degree.content_columns %>
+    <td><%=h degree.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => degree %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => degree %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => degree }, :confirm => 'Are you sure?', :post => true %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @degree_pages.current.previous } if @degree_pages.current.previous %>
+<%= link_to 'Next page', { :page => @degree_pages.current.next } if @degree_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New degree', :action => 'new' %>
