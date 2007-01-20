@@ -1,4 +1,4 @@
-<h1>Listing addresses</h1>
+<h1><%= _('Listing addresses') %></h1>
 
 <table>
   <tr>
@@ -12,16 +12,16 @@
   <% for column in Address.content_columns %>
     <td><%=h address.send(column.name) %></td>
   <% end %>
-    <td><%= link_to 'Show', :action => 'show', :id => address %></td>
-    <td><%= link_to 'Edit', :action => 'edit', :id => address %></td>
-    <td><%= link_to 'Destroy', { :action => 'destroy', :id => address }, :confirm => 'Are you sure?', :post => true %></td>
+    <td><%= link_to _('Show'), :action => 'show', :id => address %></td>
+    <td><%= link_to _('Edit'), :action => 'edit', :id => address %></td>
+    <td><%= link_to _('Destroy'), { :action => 'destroy', :id => address }, :confirm => _('Are you sure?'), :post => true %></td>
   </tr>
 <% end %>
 </table>
 
-<%= link_to 'Previous page', { :page => @address_pages.current.previous } if @address_pages.current.previous %>
-<%= link_to 'Next page', { :page => @address_pages.current.next } if @address_pages.current.next %> 
+<%= link_to _('Previous page'), { :page => @address_pages.current.previous } if @address_pages.current.previous %>
+<%= link_to _('Next page'), { :page => @address_pages.current.next } if @address_pages.current.next %> 
 
 <br />
 
-<%= link_to 'New address', :action => 'new' %>
+<%= link_to _('New address'), :action => 'new' %>
