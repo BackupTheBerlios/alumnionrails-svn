@@ -1,3 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AlumniOnRails\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-01-21 20:14+0100\n"
+"Last-Translator: Philipp Wolfer <phw@users.berlios.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
 #: app/models/course.rb:-
 msgid "course"
 msgstr ""
@@ -337,3 +351,4 @@ msgstr "nächste Seite"
 #: app/views/address/list.rhtml:27
 msgid "New address"
 msgstr "neue Adresse"
+
